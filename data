@@ -1,0 +1,47 @@
+                                     Accuracy      Balanced Accuracy   ROC AUC    F1 Score
+
+Model                    
+Linear SVC                              0.99                0.99         0.99        0.99
+Perceptron                              0.99                0.98         0.98        0.99
+Logistic Regression                     0.99                0.98         0.98        0.99
+Logistic Regression                     0.99                0.98         0.98        0.99
+SVC                                     0.98                0.98         0.98        0.98
+XGB Classifier                          0.98                0.97         0.97        0.98
+Label Propagation                       0.98                0.97         0.97        0.98
+Label Spreading                         0.98                0.97         0.97        0.98
+Bagging Classifier                      0.97                0.97         0.97        0.97 
+Passive Aggressive Classifier           0.98                0.97         0.97        0.98
+SGD Classifier                          0.98                0.97         0.97        0.98
+Random Forest Classifier                0.97                0.97         0.97        0.97
+Calibrated Classifier CV                0.98                0.97         0.97        0.98
+Quadratic Discriminant Analysis         0.96                0.97         0.97        0.96
+Extra Trees Classifier                  0.97                0.96         0.96        0.97
+Ridge Classifier CV                     0.97                0.96         0.96        0.97
+LGBM Classifier                         0.96                0.96         0.96        0.96
+Ridge Classifier                        0.97                0.96         0.96        0.97
+AdaBoost Classifier                     0.96                0.96         0.96        0.96
+K Neighbors Classifier                  0.96                0.96         0.96        0.96
+Bernoulli NB                            0.95                0.95         0.95        0.95
+Linera Discriminant Analysis            0.96                0.95         0.95        0.96
+Gaussian NB                             0.95                0.95         0.95        0.95
+NuSVC                                   0.95                0.94         0.94        0.95
+Extra Tree Classifier                   0.94                0.93         0.93        0.94
+Nearest Centroid                        0.95                0.93         0.93        0.95
+Decision Tree Classifier                0.93                0.93         0.93        0.93
+Dummy Classifier                        0.53                0.50         0.50        0.53
+
+
+                                     Time Taken
+Model
+Linear SVC                                0.01
+Perceptron                                0.01
+Logistic Regression                       0.01
+SVC                                       0.02
+XGB Classifier                            0.06
+Label Propagation                         0.04
+Label Spreading                           0.04
+Bagging Classifier                        0.03
+Passive Aggressive Classifier             0.01
+SGD Classifier                            0.01
+Random Forest Classifier                  0.24
+Calibrated Classifier CV                  0.02
